@@ -1,0 +1,35 @@
+.Toggle {
+  width: 125px;
+  height: 40px;
+  border-radius: 25px;
+  border: 3px solid #74b9ff;
+  padding: 3px;
+  display: flex;
+  justify-content: flex-start;
+
+  .Toggler {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: #74b9ff;
+  }
+
+  &.IsToggled {
+    border-color: #00b894;
+    justify-content: flex-end;
+
+    .Toggler {
+      background: #00b894;
+    }
+  }
+}
+
+.Button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: 3px solid #00b894;
+  text-transform: uppercase;
+  border-radius: 5px;
+  cursor: pointer;
+}

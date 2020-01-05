@@ -1,0 +1,23 @@
+.Select {
+  display: block;
+  width: 100%;
+  text-transform: uppercase;
+  border: 3px solid #0984e3;
+  height: 50px;
+}
+
+.Value {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+}
+
+.Reset {
+  margin-top: 1rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: 0.25rem 0.5rem;
+  border: 3px solid #0984e3;
+  font-weight: bold;
+  cursor: pointer;
+}
