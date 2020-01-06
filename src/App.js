@@ -4,6 +4,7 @@ import { Index } from './screens/Index/Index';
 import { Navigation } from './components/Navigation/Navigation';
 import { CompoundComponents } from './screens/CompoundComponents';
 import { RenderProps } from './screens/RenderProps';
+import { ReactHooks } from './screens/ReactHooks';
 
 export const App = (props) => {
   return (
@@ -18,6 +19,7 @@ export const App = (props) => {
         <Index path='/' />
         <CompoundComponents path='/1'></CompoundComponents>
         <RenderProps path='/2'></RenderProps>
+        <ReactHooks path='/3'></ReactHooks>
       </Router>
       <Navigation />
     </div>

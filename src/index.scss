@@ -47,3 +47,51 @@ h6 {
 .topic {
   margin-top: 2rem;
 }
+
+.dropdown {
+  display: block;
+  border: 3px solid #d63031;
+  padding: 0.5rem 1rem;
+  position: relative;
+  margin: 1rem 0;
+  cursor: pointer;
+
+  .dropdown__list {
+    display: none;
+    list-style-type: none;
+    background: #fff;
+  }
+
+  .dropdown__item {
+    padding: 0.5rem 1rem;
+    &:hover {
+      background: #dfe6e9;
+    }
+  }
+
+  &--open {
+    .dropdown__list {
+      display: block;
+      position: absolute;
+      top: 40px;
+      left: -3px;
+      border: 3px solid #d63031;
+    }
+  }
+}
+
+.codeblock {
+  padding: 1rem;
+  border: 1px solid #2d3436;
+  border-radius: 3px;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: #fff;
+  border: 3px solid #d63031;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+}
