@@ -5,6 +5,7 @@ import { Navigation } from './components/Navigation/Navigation';
 import { CompoundComponents } from './screens/CompoundComponents';
 import { RenderProps } from './screens/RenderProps';
 import { ReactHooks } from './screens/ReactHooks';
+import { Context } from './screens/ReactContext';
 
 export const App = (props) => {
   return (
@@ -20,6 +21,7 @@ export const App = (props) => {
         <CompoundComponents path='/1'></CompoundComponents>
         <RenderProps path='/2'></RenderProps>
         <ReactHooks path='/3'></ReactHooks>
+        <Context path='/4'></Context>
       </Router>
       <Navigation />
     </div>

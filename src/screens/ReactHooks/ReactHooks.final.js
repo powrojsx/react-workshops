@@ -21,7 +21,6 @@ export const ReactHooks = () => {
 
   return (
     <>
-      <p>1. Dropdown hook</p>
       <Dropdown />
       <button className='button' onClick={resetValue}>
         Reset
