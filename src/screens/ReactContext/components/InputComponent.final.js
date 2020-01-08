@@ -13,6 +13,7 @@ export const InputComponent = () => (
           type='text'
           className='input'
           onChange={changeInputValue}
+          placeholder='Input something...'
         ></input>
       );
     }}

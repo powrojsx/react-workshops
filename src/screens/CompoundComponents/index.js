@@ -1,5 +1,4 @@
 import React from 'react';
-import { css } from './CompoundComponents.module.scss';
 import { ComparisionWrapper } from '../../components/ComparisionWrapper/ComparisionWrapper';
 import { CompoundComponents as CompoundComponentsBefore } from './CompoundComponents';
 import { CompoundComponents as CompoundComponentsFinal } from './CompoundComponents.final';

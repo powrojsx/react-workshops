@@ -3,7 +3,11 @@ import { Provider } from './context';
 import { MyComponent } from './components/MyComponent.final';
 
 export const Context = () => {
-  const [state, setState] = useState({});
+  const [state, setState] = useState({
+    isClicked: false,
+    clickedFromConsumer: false,
+    inputValue: '',
+  });
 
   return (
     <Provider

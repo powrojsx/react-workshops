@@ -2,14 +2,14 @@ import React, { useState } from 'react';
 import css from './RenderProps.module.scss';
 import classNames from 'classnames';
 
-const Switch = ({ isToggle }) => {
+const Switch = ({ isToggle, onClick }) => {
   const classes = classNames({
     [css.Toggle]: true,
     [css.IsToggled]: isToggle,
   });
 
   return (
-    <div className={classes}>
+    <div className={classes} onClick={onClick}>
       <div className={css.Toggler} />
     </div>
   );
@@ -31,7 +31,7 @@ export const RenderProps = () => {
       <Toggle>
         {({ isToggle, setToggle }) => (
           <>
-            <Switch isToggle={isToggle} />
+            <Switch isToggle={isToggle} onClick={setToggle} />
             <button className={css.Button} onClick={setToggle}>
               Toggle
             </button>
